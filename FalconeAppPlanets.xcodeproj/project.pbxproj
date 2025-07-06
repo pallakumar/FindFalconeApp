@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181BEB4C2E180FE900227597 /* FalconeAppPlanetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB4B2E180FE900227597 /* FalconeAppPlanetsApp.swift */; };
+		181BEB4E2E180FE900227597 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB4D2E180FE900227597 /* ContentView.swift */; };
+		181BEB502E180FEF00227597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BEB4F2E180FEF00227597 /* Assets.xcassets */; };
+		181BEB532E180FEF00227597 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BEB522E180FEF00227597 /* Preview Assets.xcassets */; };
+		181BEB5D2E180FF000227597 /* FalconeAppPlanetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB5C2E180FF000227597 /* FalconeAppPlanetsTests.swift */; };
+		181BEB672E180FF000227597 /* FalconeAppPlanetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB662E180FF000227597 /* FalconeAppPlanetsUITests.swift */; };
+		181BEB692E180FF000227597 /* FalconeAppPlanetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB682E180FF000227597 /* FalconeAppPlanetsUITestsLaunchTests.swift */; };
+		181BEB762E19670900227597 /* PlanetVehiclePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB752E19670900227597 /* PlanetVehiclePicker.swift */; };
+		181BEB782E19673800227597 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB772E19673800227597 /* RadioButton.swift */; };
+		181BEB7A2E19676300227597 /* FindFalconeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB792E19676300227597 /* FindFalconeViewModel.swift */; };
+		181BEB7C2E19678800227597 /* FalconeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB7B2E19678800227597 /* FalconeService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181BEB592E180FF000227597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181BEB402E180FE800227597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181BEB472E180FE800227597;
+			remoteInfo = FalconeAppPlanets;
+		};
+		181BEB632E180FF000227597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181BEB402E180FE800227597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181BEB472E180FE800227597;
+			remoteInfo = FalconeAppPlanets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181BEB482E180FE800227597 /* FalconeAppPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalconeAppPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BEB4B2E180FE900227597 /* FalconeAppPlanetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeAppPlanetsApp.swift; sourceTree = "<group>"; };
+		181BEB4D2E180FE900227597 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		181BEB4F2E180FEF00227597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181BEB522E180FEF00227597 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		181BEB582E180FF000227597 /* FalconeAppPlanetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconeAppPlanetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BEB5C2E180FF000227597 /* FalconeAppPlanetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeAppPlanetsTests.swift; sourceTree = "<group>"; };
+		181BEB622E180FF000227597 /* FalconeAppPlanetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconeAppPlanetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BEB662E180FF000227597 /* FalconeAppPlanetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeAppPlanetsUITests.swift; sourceTree = "<group>"; };
+		181BEB682E180FF000227597 /* FalconeAppPlanetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeAppPlanetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		181BEB752E19670900227597 /* PlanetVehiclePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetVehiclePicker.swift; sourceTree = "<group>"; };
+		181BEB772E19673800227597 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		181BEB792E19676300227597 /* FindFalconeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFalconeViewModel.swift; sourceTree = "<group>"; };
+		181BEB7B2E19678800227597 /* FalconeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181BEB452E180FE800227597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BEB552E180FF000227597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BEB5F2E180FF000227597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181BEB3F2E180FE800227597 = {
+			isa = PBXGroup;
+			children = (
+				181BEB4A2E180FE800227597 /* FalconeAppPlanets */,
+				181BEB5B2E180FF000227597 /* FalconeAppPlanetsTests */,
+				181BEB652E180FF000227597 /* FalconeAppPlanetsUITests */,
+				181BEB492E180FE800227597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181BEB492E180FE800227597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181BEB482E180FE800227597 /* FalconeAppPlanets.app */,
+				181BEB582E180FF000227597 /* FalconeAppPlanetsTests.xctest */,
+				181BEB622E180FF000227597 /* FalconeAppPlanetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181BEB4A2E180FE800227597 /* FalconeAppPlanets */ = {
+			isa = PBXGroup;
+			children = (
+				181BEB4B2E180FE900227597 /* FalconeAppPlanetsApp.swift */,
+				181BEB4D2E180FE900227597 /* ContentView.swift */,
+				181BEB752E19670900227597 /* PlanetVehiclePicker.swift */,
+				181BEB772E19673800227597 /* RadioButton.swift */,
+				181BEB792E19676300227597 /* FindFalconeViewModel.swift */,
+				181BEB7B2E19678800227597 /* FalconeService.swift */,
+				181BEB4F2E180FEF00227597 /* Assets.xcassets */,
+				181BEB512E180FEF00227597 /* Preview Content */,
+			);
+			path = FalconeAppPlanets;
+			sourceTree = "<group>";
+		};
+		181BEB512E180FEF00227597 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				181BEB522E180FEF00227597 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		181BEB5B2E180FF000227597 /* FalconeAppPlanetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				181BEB5C2E180FF000227597 /* FalconeAppPlanetsTests.swift */,
+			);
+			path = FalconeAppPlanetsTests;
+			sourceTree = "<group>";
+		};
+		181BEB652E180FF000227597 /* FalconeAppPlanetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181BEB662E180FF000227597 /* FalconeAppPlanetsUITests.swift */,
+				181BEB682E180FF000227597 /* FalconeAppPlanetsUITestsLaunchTests.swift */,
+			);
+			path = FalconeAppPlanetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181BEB472E180FE800227597 /* FalconeAppPlanets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181BEB6C2E180FF000227597 /* Build configuration list for PBXNativeTarget "FalconeAppPlanets" */;
+			buildPhases = (
+				181BEB442E180FE800227597 /* Sources */,
+				181BEB452E180FE800227597 /* Frameworks */,
+				181BEB462E180FE800227597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalconeAppPlanets;
+			productName = FalconeAppPlanets;
+			productReference = 181BEB482E180FE800227597 /* FalconeAppPlanets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181BEB572E180FF000227597 /* FalconeAppPlanetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181BEB6F2E180FF000227597 /* Build configuration list for PBXNativeTarget "FalconeAppPlanetsTests" */;
+			buildPhases = (
+				181BEB542E180FF000227597 /* Sources */,
+				181BEB552E180FF000227597 /* Frameworks */,
+				181BEB562E180FF000227597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181BEB5A2E180FF000227597 /* PBXTargetDependency */,
+			);
+			name = FalconeAppPlanetsTests;
+			productName = FalconeAppPlanetsTests;
+			productReference = 181BEB582E180FF000227597 /* FalconeAppPlanetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181BEB612E180FF000227597 /* FalconeAppPlanetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181BEB722E180FF000227597 /* Build configuration list for PBXNativeTarget "FalconeAppPlanetsUITests" */;
+			buildPhases = (
+				181BEB5E2E180FF000227597 /* Sources */,
+				181BEB5F2E180FF000227597 /* Frameworks */,
+				181BEB602E180FF000227597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181BEB642E180FF000227597 /* PBXTargetDependency */,
+			);
+			name = FalconeAppPlanetsUITests;
+			productName = FalconeAppPlanetsUITests;
+			productReference = 181BEB622E180FF000227597 /* FalconeAppPlanetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181BEB402E180FE800227597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					181BEB472E180FE800227597 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					181BEB572E180FF000227597 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 181BEB472E180FE800227597;
+					};
+					181BEB612E180FF000227597 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 181BEB472E180FE800227597;
+					};
+				};
+			};
+			buildConfigurationList = 181BEB432E180FE800227597 /* Build configuration list for PBXProject "FalconeAppPlanets" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181BEB3F2E180FE800227597;
+			productRefGroup = 181BEB492E180FE800227597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181BEB472E180FE800227597 /* FalconeAppPlanets */,
+				181BEB572E180FF000227597 /* FalconeAppPlanetsTests */,
+				181BEB612E180FF000227597 /* FalconeAppPlanetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181BEB462E180FE800227597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BEB532E180FEF00227597 /* Preview Assets.xcassets in Resources */,
+				181BEB502E180FEF00227597 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BEB562E180FF000227597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BEB602E180FF000227597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181BEB442E180FE800227597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BEB7A2E19676300227597 /* FindFalconeViewModel.swift in Sources */,
+				181BEB4E2E180FE900227597 /* ContentView.swift in Sources */,
+				181BEB7C2E19678800227597 /* FalconeService.swift in Sources */,
+				181BEB762E19670900227597 /* PlanetVehiclePicker.swift in Sources */,
+				181BEB4C2E180FE900227597 /* FalconeAppPlanetsApp.swift in Sources */,
+				181BEB782E19673800227597 /* RadioButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BEB542E180FF000227597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BEB5D2E180FF000227597 /* FalconeAppPlanetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181BEB5E2E180FF000227597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181BEB672E180FF000227597 /* FalconeAppPlanetsUITests.swift in Sources */,
+				181BEB692E180FF000227597 /* FalconeAppPlanetsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181BEB5A2E180FF000227597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181BEB472E180FE800227597 /* FalconeAppPlanets */;
+			targetProxy = 181BEB592E180FF000227597 /* PBXContainerItemProxy */;
+		};
+		181BEB642E180FF000227597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181BEB472E180FE800227597 /* FalconeAppPlanets */;
+			targetProxy = 181BEB632E180FF000227597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181BEB6A2E180FF000227597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181BEB6B2E180FF000227597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181BEB6D2E180FF000227597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FalconeAppPlanets/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTest.FalconeAppPlanets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181BEB6E2E180FF000227597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FalconeAppPlanets/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTest.FalconeAppPlanets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181BEB702E180FF000227597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTest.FalconeAppPlanetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalconeAppPlanets.app/FalconeAppPlanets";
+			};
+			name = Debug;
+		};
+		181BEB712E180FF000227597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTest.FalconeAppPlanetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalconeAppPlanets.app/FalconeAppPlanets";
+			};
+			name = Release;
+		};
+		181BEB732E180FF000227597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTest.FalconeAppPlanetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalconeAppPlanets;
+			};
+			name = Debug;
+		};
+		181BEB742E180FF000227597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTest.FalconeAppPlanetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalconeAppPlanets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181BEB432E180FE800227597 /* Build configuration list for PBXProject "FalconeAppPlanets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BEB6A2E180FF000227597 /* Debug */,
+				181BEB6B2E180FF000227597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181BEB6C2E180FF000227597 /* Build configuration list for PBXNativeTarget "FalconeAppPlanets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BEB6D2E180FF000227597 /* Debug */,
+				181BEB6E2E180FF000227597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181BEB6F2E180FF000227597 /* Build configuration list for PBXNativeTarget "FalconeAppPlanetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BEB702E180FF000227597 /* Debug */,
+				181BEB712E180FF000227597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181BEB722E180FF000227597 /* Build configuration list for PBXNativeTarget "FalconeAppPlanetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181BEB732E180FF000227597 /* Debug */,
+				181BEB742E180FF000227597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181BEB402E180FE800227597 /* Project object */;
+}
