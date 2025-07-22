@@ -20,6 +20,7 @@
 		181BEB7C2E19678800227597 /* FalconeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BEB7B2E19678800227597 /* FalconeService.swift */; };
 		18D846652E2FFEB4003C1AF6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D846642E2FFEB4003C1AF6 /* ImagePicker.swift */; };
 		18D846672E3000C1003C1AF6 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D846662E3000C1003C1AF6 /* SideMenuView.swift */; };
+		18D8466D2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18D8466C2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		181BEB7B2E19678800227597 /* FalconeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeService.swift; sourceTree = "<group>"; };
 		18D846642E2FFEB4003C1AF6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		18D846662E3000C1003C1AF6 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		18D8466C2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Falcon App ImagePciker SideMenu.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		181BEB3F2E180FE800227597 = {
 			isa = PBXGroup;
 			children = (
+				18D8466B2E30062C003C1AF6 /* Demo */,
 				181BEB4A2E180FE800227597 /* FalconeAppPlanets */,
 				181BEB5B2E180FF000227597 /* FalconeAppPlanetsTests */,
 				181BEB652E180FF000227597 /* FalconeAppPlanetsUITests */,
@@ -143,6 +146,14 @@
 				181BEB682E180FF000227597 /* FalconeAppPlanetsUITestsLaunchTests.swift */,
 			);
 			path = FalconeAppPlanetsUITests;
+			sourceTree = "<group>";
+		};
+		18D8466B2E30062C003C1AF6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				18D8466C2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181BEB532E180FEF00227597 /* Preview Assets.xcassets in Resources */,
+				18D8466D2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov in Resources */,
 				181BEB502E180FEF00227597 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
