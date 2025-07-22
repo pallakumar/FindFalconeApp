@@ -2,6 +2,10 @@
 
 This is a SwiftUI-based application for the **"Finding Falcone"** coding challenge by [GeekTrust](https://www.geektrust.in/). The goal is to find Al Falcone by selecting 4 planets and assigning vehicles strategically.
 
+## 🎥 Demo Video
+
+https://github.com/user-attachments/assets/9cba421c-6b15-4ca6-b41f-acc19dede583
+
 ##  Features
 
 - ✅ Fetches planets and vehicles from public APIs
