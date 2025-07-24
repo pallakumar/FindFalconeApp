@@ -21,6 +21,8 @@
 		18D846652E2FFEB4003C1AF6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D846642E2FFEB4003C1AF6 /* ImagePicker.swift */; };
 		18D846672E3000C1003C1AF6 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D846662E3000C1003C1AF6 /* SideMenuView.swift */; };
 		18D8466D2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18D8466C2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov */; };
+		18D846712E329389003C1AF6 /* MovieCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D846702E329389003C1AF6 /* MovieCarousel.swift */; };
+		18D846732E329965003C1AF6 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D846722E329965003C1AF6 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		18D846642E2FFEB4003C1AF6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		18D846662E3000C1003C1AF6 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		18D8466C2E300689003C1AF6 /* Falcon App ImagePciker SideMenu.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Falcon App ImagePciker SideMenu.mov"; sourceTree = "<group>"; };
+		18D846702E329389003C1AF6 /* MovieCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCarousel.swift; sourceTree = "<group>"; };
+		18D846722E329965003C1AF6 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				181BEB4B2E180FE900227597 /* FalconeAppPlanetsApp.swift */,
 				181BEB4D2E180FE900227597 /* ContentView.swift */,
 				18D846662E3000C1003C1AF6 /* SideMenuView.swift */,
+				18D846702E329389003C1AF6 /* MovieCarousel.swift */,
+				18D846722E329965003C1AF6 /* MovieDetailView.swift */,
 				18D846642E2FFEB4003C1AF6 /* ImagePicker.swift */,
 				181BEB752E19670900227597 /* PlanetVehiclePicker.swift */,
 				181BEB772E19673800227597 /* RadioButton.swift */,
@@ -287,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D846732E329965003C1AF6 /* MovieDetailView.swift in Sources */,
 				181BEB7A2E19676300227597 /* FindFalconeViewModel.swift in Sources */,
+				18D846712E329389003C1AF6 /* MovieCarousel.swift in Sources */,
 				181BEB4E2E180FE900227597 /* ContentView.swift in Sources */,
 				18D846672E3000C1003C1AF6 /* SideMenuView.swift in Sources */,
 				181BEB7C2E19678800227597 /* FalconeService.swift in Sources */,

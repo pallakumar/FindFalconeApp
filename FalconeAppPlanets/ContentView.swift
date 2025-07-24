@@ -8,6 +8,8 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var viewModel = FindFalconeViewModel()
     @State private var showMenu = false
+    @State private var navigateToCarousel = false
+
 
     var body: some View {
         ZStack {
@@ -34,6 +36,21 @@ struct ContentView: View {
                                 .foregroundColor(result.contains("Found") ? .green : .red)
                                 .padding()
                         }
+                        
+                        //Navigation to movie list page
+                        Button("Movie List") {
+                            navigateToCarousel = true
+                        }
+                        .buttonStyle(.borderedProminent)
+
+                        // Hidden NavigationLink triggered by state
+                        NavigationLink(
+                            destination: MovieCarousel(),
+                            isActive: $navigateToCarousel
+                        ) {
+                            EmptyView()
+                        }
+                        //Navigation to movie list page until above line
                     }
                     .padding()
                 }
